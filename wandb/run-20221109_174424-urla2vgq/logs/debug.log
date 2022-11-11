@@ -1,0 +1,34 @@
+2022-11-09 17:44:24,340 INFO    MainThread:60939 [wandb_setup.py:_flush():68] Configure stats pid to 60939
+2022-11-09 17:44:24,340 INFO    MainThread:60939 [wandb_setup.py:_flush():68] Loading settings from /Users/bb/.config/wandb/settings
+2022-11-09 17:44:24,340 INFO    MainThread:60939 [wandb_setup.py:_flush():68] Loading settings from /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/settings
+2022-11-09 17:44:24,340 INFO    MainThread:60939 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-09 17:44:24,340 INFO    MainThread:60939 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'run_models.py', 'program': 'run_models.py'}
+2022-11-09 17:44:24,340 INFO    MainThread:60939 [wandb_init.py:_log_setup():476] Logging user logs to /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221109_174424-urla2vgq/logs/debug.log
+2022-11-09 17:44:24,340 INFO    MainThread:60939 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221109_174424-urla2vgq/logs/debug-internal.log
+2022-11-09 17:44:24,340 INFO    MainThread:60939 [wandb_init.py:init():516] calling init triggers
+2022-11-09 17:44:24,340 INFO    MainThread:60939 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-09 17:44:24,340 INFO    MainThread:60939 [wandb_init.py:init():569] starting backend
+2022-11-09 17:44:24,340 INFO    MainThread:60939 [wandb_init.py:init():573] setting up manager
+2022-11-09 17:44:24,346 INFO    MainThread:60939 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-11-09 17:44:24,348 INFO    MainThread:60939 [wandb_init.py:init():580] backend started and connected
+2022-11-09 17:44:24,351 INFO    MainThread:60939 [wandb_init.py:init():658] updated telemetry
+2022-11-09 17:44:24,373 INFO    MainThread:60939 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-11-09 17:44:24,652 INFO    MainThread:60939 [wandb_run.py:_on_init():2000] communicating current version
+2022-11-09 17:44:24,848 INFO    MainThread:60939 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.13.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-11-09 17:44:24,848 INFO    MainThread:60939 [wandb_init.py:init():728] starting run threads in backend
+2022-11-09 17:44:29,871 INFO    MainThread:60939 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-09 17:44:29,871 INFO    MainThread:60939 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-09 17:44:29,872 INFO    MainThread:60939 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-09 17:44:29,872 INFO    MainThread:60939 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-09 17:44:29,872 INFO    MainThread:60939 [wandb_init.py:init():765] run started, returning control to user process
+2022-11-09 17:44:29,872 INFO    MainThread:60939 [wandb_config.py:__setitem__():148] config set c = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fa0fc22cc10>>
+2022-11-09 17:44:29,872 INFO    MainThread:60939 [wandb_run.py:_config_callback():1160] config_cb c 10 None
+2022-11-09 17:44:29,873 INFO    MainThread:60939 [wandb_config.py:__setitem__():148] config set data = sine - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fa0fc22cc10>>
+2022-11-09 17:44:29,873 INFO    MainThread:60939 [wandb_run.py:_config_callback():1160] config_cb data sine None
+2022-11-09 17:44:29,873 INFO    MainThread:60939 [wandb_config.py:__setitem__():148] config set z0_encoder = ode - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fa0fc22cc10>>
+2022-11-09 17:44:29,873 INFO    MainThread:60939 [wandb_run.py:_config_callback():1160] config_cb z0_encoder ode None
+2022-11-09 17:44:29,873 INFO    MainThread:60939 [wandb_config.py:__setitem__():148] config set flow_model = coupling - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fa0fc22cc10>>
+2022-11-09 17:44:29,873 INFO    MainThread:60939 [wandb_run.py:_config_callback():1160] config_cb flow_model coupling None
+2022-11-09 17:44:29,875 INFO    MainThread:60939 [wandb_watch.py:watch():51] Watching

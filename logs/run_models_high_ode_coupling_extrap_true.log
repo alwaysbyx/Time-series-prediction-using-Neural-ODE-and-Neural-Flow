@@ -1,0 +1,10 @@
+/Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/run_models.py
+run_models.py --latent-ode --noise-weight 0.0 --viz --data high --extrap --z0-encoder ode --wandb 1
+Experiment high_ode_coupling_extrap_true
+Epoch 0001 [Test seq (cond on sampled tp)] | Loss 1195.098633 | Likelihood -1198.874023 | KL fp 5.2558 | FP STD 0.5039|
+KL coef: 0.0
+Train loss (one batch): 1527.5772705078125
+Train CE loss (one batch): 0.0
+Test MSE: 0.2405
+Poisson likelihood: 0.0
+CE loss: 0.0

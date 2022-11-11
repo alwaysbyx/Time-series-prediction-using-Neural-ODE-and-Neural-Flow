@@ -1,0 +1,145 @@
+/Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/run_models.py
+run_models.py --latent-ode --noise-weight 0.01 --viz --data sine --extrap --z0-encoder ode --wandb 1
+Experiment sine_ode_coupling_extrap
+Epoch 0001 [Test seq (cond on sampled tp)] | Loss 2440.001953 | Likelihood -2447.496582 | KL fp 3.2331 | FP STD 0.7584|
+KL coef: 0.0
+Train loss (one batch): 2727.824951171875
+Train CE loss (one batch): 0.0
+Test MSE: 0.4902
+Poisson likelihood: 0.0
+CE loss: 0.0
+Computing loss... 0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment sine_ode_coupling_extrap
+Epoch 0002 [Test seq (cond on sampled tp)] | Loss 1658.443970 | Likelihood -1661.178589 | KL fp 7.7759 | FP STD 0.3309|
+KL coef: 0.0
+Train loss (one batch): 1715.336181640625
+Train CE loss (one batch): 0.0
+Test MSE: 0.3330
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment sine_ode_coupling_extrap
+Epoch 0003 [Test seq (cond on sampled tp)] | Loss 925.030334 | Likelihood -928.406982 | KL fp 7.2805 | FP STD 0.1109|
+KL coef: 0.0
+Train loss (one batch): 1046.6636962890625
+Train CE loss (one batch): 0.0
+Test MSE: 0.1864
+Poisson likelihood: 0.0
+CE loss: 0.0
+Computing loss... 0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment sine_ode_coupling_extrap
+Epoch 0004 [Test seq (cond on sampled tp)] | Loss 1396.486450 | Likelihood -1402.994141 | KL fp 7.5784 | FP STD 0.4039|
+KL coef: 0.0
+Train loss (one batch): 1492.0433349609375
+Train CE loss (one batch): 0.0
+Test MSE: 0.2813
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+plotting....
+Computing loss... 0
+plotting....
+Experiment sine_ode_coupling_extrap
+Epoch 0005 [Test seq (cond on sampled tp)] | Loss 652.376038 | Likelihood -653.994080 | KL fp 6.5303 | FP STD 0.1804|
+KL coef: 0.0
+Train loss (one batch): 767.6176147460938
+Train CE loss (one batch): 0.0
+Test MSE: 0.1315
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment sine_ode_coupling_extrap
+Epoch 0006 [Test seq (cond on sampled tp)] | Loss 225.003830 | Likelihood -230.043716 | KL fp 7.3950 | FP STD 0.0706|
+KL coef: 0.0
+Train loss (one batch): 253.42140197753906
+Train CE loss (one batch): 0.0
+Test MSE: 0.0467
+Poisson likelihood: 0.0
+CE loss: 0.0
+Computing loss... 0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment sine_ode_coupling_extrap
+Epoch 0007 [Test seq (cond on sampled tp)] | Loss 451.019897 | Likelihood -459.688507 | KL fp 6.3838 | FP STD 0.1869|
+KL coef: 0.0
+Train loss (one batch): 677.136474609375
+Train CE loss (one batch): 0.0
+Test MSE: 0.0927
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+plotting....
+Computing loss... 0
+Experiment sine_ode_coupling_extrap
+Epoch 0008 [Test seq (cond on sampled tp)] | Loss 201.996964 | Likelihood -204.871567 | KL fp 7.2056 | FP STD 0.0773|
+KL coef: 0.0
+Train loss (one batch): 300.6500244140625
+Train CE loss (one batch): 0.0
+Test MSE: 0.0417
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+plotting....
+Computing loss... 0
+plotting....
+Experiment sine_ode_coupling_extrap
+Epoch 0009 [Test seq (cond on sampled tp)] | Loss 102.740173 | Likelihood -103.955223 | KL fp 7.4012 | FP STD 0.0687|
+KL coef: 0.0
+Train loss (one batch): 130.05218505859375
+Train CE loss (one batch): 0.0
+Test MSE: 0.0215
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment sine_ode_coupling_extrap
+Epoch 0010 [Test seq (cond on sampled tp)] | Loss 64.466454 | Likelihood -65.591743 | KL fp 8.6659 | FP STD 0.0308|
+KL coef: 0.0
+Train loss (one batch): 73.62652587890625
+Train CE loss (one batch): 0.0
+Test MSE: 0.0139
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment sine_ode_coupling_extrap
+Epoch 0011 [Test seq (cond on sampled tp)] | Loss 59.821625 | Likelihood -60.964222 | KL fp 8.2963 | FP STD 0.0275|
+KL coef: 0.010000000000000009
+Train loss (one batch): 76.0350112915039
+Train CE loss (one batch): 0.0
+Test MSE: 0.0129
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Computing loss... 0
+Experiment sine_ode_coupling_extrap
+Epoch 0012 [Test seq (cond on sampled tp)] | Loss 61.432373 | Likelihood -62.579865 | KL fp 7.7267 | FP STD 0.0495|
+KL coef: 0.01990000000000003
+Train loss (one batch): 74.44892120361328
+Train CE loss (one batch): 0.0
+Test MSE: 0.0133
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)

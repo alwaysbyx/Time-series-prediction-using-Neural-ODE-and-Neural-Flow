@@ -1,0 +1,34 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.3",
+    "heartbeatAt": "2022-11-10T22:00:00.342416",
+    "startedAt": "2022-11-10T21:59:59.982622",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--latent-ode",
+        "--noise-weight",
+        "0.01",
+        "--viz",
+        "--data",
+        "sir",
+        "--extrap",
+        "--z0-encoder",
+        "ode",
+        "--wandb",
+        "1"
+    ],
+    "state": "running",
+    "program": "run_models.py",
+    "codePath": "run_models.py",
+    "git": {
+        "remote": "https://github.com/YuliaRubanova/latent_ode.git",
+        "commit": "c0682d4f52b806fb88d965755892eadd9783f936"
+    },
+    "email": "496127893@qq.com",
+    "root": "/Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode",
+    "host": "bianyuexindeMacBook-Pro.local",
+    "username": "bb",
+    "executable": "/Users/bb/opt/anaconda3/bin/python"
+}

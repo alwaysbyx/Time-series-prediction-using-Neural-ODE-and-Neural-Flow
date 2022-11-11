@@ -1,0 +1,1092 @@
+2022-11-10 13:48:19,995 INFO    StreamThr :13782 [internal.py:wandb_internal():88] W&B internal server running at pid: 13782, started at: 2022-11-10 13:48:19.992629
+2022-11-10 13:48:19,998 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: status
+2022-11-10 13:48:20,001 DEBUG   SenderThread:13782 [sender.py:send_request():317] send_request: status
+2022-11-10 13:48:20,002 INFO    WriterThread:13782 [datastore.py:open_for_write():75] open: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/run-1y12v2v0.wandb
+2022-11-10 13:48:20,003 DEBUG   SenderThread:13782 [sender.py:send():303] send: header
+2022-11-10 13:48:20,010 DEBUG   SenderThread:13782 [sender.py:send():303] send: run
+2022-11-10 13:48:20,270 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: check_version
+2022-11-10 13:48:20,276 INFO    SenderThread:13782 [dir_watcher.py:__init__():216] watching files in: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files
+2022-11-10 13:48:20,276 INFO    SenderThread:13782 [sender.py:_start_run_threads():928] run started: 1y12v2v0 with start time 1668116899.978564
+2022-11-10 13:48:20,276 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:20,277 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:20,277 DEBUG   SenderThread:13782 [sender.py:send_request():317] send_request: check_version
+2022-11-10 13:48:20,355 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: run_start
+2022-11-10 13:48:20,358 DEBUG   HandlerThread:13782 [meta.py:__init__():34] meta init
+2022-11-10 13:48:20,358 DEBUG   HandlerThread:13782 [meta.py:__init__():49] meta init done
+2022-11-10 13:48:20,358 DEBUG   HandlerThread:13782 [meta.py:probe():215] probe
+2022-11-10 13:48:20,367 DEBUG   HandlerThread:13782 [meta.py:_setup_git():205] setup git
+2022-11-10 13:48:20,406 DEBUG   HandlerThread:13782 [meta.py:_setup_git():212] setup git done
+2022-11-10 13:48:20,407 DEBUG   HandlerThread:13782 [meta.py:_save_pip():53] save pip
+2022-11-10 13:48:20,409 DEBUG   HandlerThread:13782 [meta.py:_save_pip():67] save pip done
+2022-11-10 13:48:20,409 DEBUG   HandlerThread:13782 [meta.py:_save_conda():74] save conda
+2022-11-10 13:48:21,285 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/requirements.txt
+2022-11-10 13:48:21,285 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/conda-environment.yaml
+2022-11-10 13:48:21,286 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:32,889 DEBUG   HandlerThread:13782 [meta.py:_save_conda():84] save conda done
+2022-11-10 13:48:32,889 DEBUG   HandlerThread:13782 [meta.py:probe():253] probe done
+2022-11-10 13:48:32,964 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-10 13:48:32,964 DEBUG   SenderThread:13782 [sender.py:send_request():317] send_request: stop_status
+2022-11-10 13:48:32,969 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,970 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,970 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,971 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,971 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,972 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,972 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,973 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,973 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,974 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,974 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,975 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,975 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,975 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,976 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,976 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:32,977 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:33,061 DEBUG   SenderThread:13782 [sender.py:send():303] send: telemetry
+2022-11-10 13:48:33,062 DEBUG   SenderThread:13782 [sender.py:send():303] send: telemetry
+2022-11-10 13:48:33,062 DEBUG   SenderThread:13782 [sender.py:send():303] send: config
+2022-11-10 13:48:33,062 DEBUG   SenderThread:13782 [sender.py:send():303] send: config
+2022-11-10 13:48:33,063 DEBUG   SenderThread:13782 [sender.py:send():303] send: config
+2022-11-10 13:48:33,063 DEBUG   SenderThread:13782 [sender.py:send():303] send: config
+2022-11-10 13:48:33,064 DEBUG   SenderThread:13782 [sender.py:send():303] send: telemetry
+2022-11-10 13:48:33,064 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,064 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,066 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,066 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,066 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,067 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,068 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,068 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,068 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,069 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,069 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,070 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,070 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,070 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,071 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,071 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,071 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,072 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,072 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,072 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,073 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,073 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,073 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,074 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,075 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,075 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,076 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,076 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,076 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,076 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,077 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,077 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,077 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,077 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,078 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,078 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,078 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,079 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,079 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,079 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,079 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,080 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,080 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,080 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,080 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,080 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,081 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,081 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,082 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,082 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,082 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,083 DEBUG   SenderThread:13782 [sender.py:send():303] send: files
+2022-11-10 13:48:33,083 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-10 13:48:33,268 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:33,269 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,269 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,270 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:33,302 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/conda-environment.yaml
+2022-11-10 13:48:33,302 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:33,303 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-metadata.json
+2022-11-10 13:48:33,303 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:48:33,557 INFO    Thread-17 :13782 [upload_job.py:push():143] Uploaded file /var/folders/mq/mzl3hgfs5ds77wwzjwl1rhrm0000gn/T/tmpalrev5yzwandb/maocto1r-wandb-metadata.json
+2022-11-10 13:48:33,648 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:33,649 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:33,649 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:33,649 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:34,037 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:34,038 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:34,038 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:34,039 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:34,303 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:34,482 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:34,482 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:34,482 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:34,483 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:34,852 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:34,852 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:34,852 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:34,853 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:35,222 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:35,222 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:35,223 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:35,223 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:35,303 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:35,304 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:48:35,569 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:35,570 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:35,570 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:35,570 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:35,931 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:35,932 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:35,932 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:35,932 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:36,263 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:36,263 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:36,263 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:36,264 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:36,308 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:36,588 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:36,588 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:36,589 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:36,589 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:36,927 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:36,928 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:36,928 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:36,929 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:37,256 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:37,256 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:37,257 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:37,258 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:37,309 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:37,593 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:37,593 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:37,593 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:37,594 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:37,937 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:37,938 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:37,938 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:37,939 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:38,303 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:38,303 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:38,304 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:38,305 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:38,311 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:38,643 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:38,643 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:38,644 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:38,644 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:39,054 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:39,055 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:39,056 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:39,058 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:39,313 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:40,171 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:40,171 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:40,171 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:40,173 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:40,318 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:40,516 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:40,516 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:40,517 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:40,517 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:40,928 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:40,928 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:40,928 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:40,929 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:41,273 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:41,274 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:41,274 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:41,274 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:41,322 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:41,323 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:48:41,733 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:41,734 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:41,734 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:41,735 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:42,104 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:42,104 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:42,104 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:42,105 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:42,328 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:42,472 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:42,472 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:42,473 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:42,474 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:42,831 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:42,832 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:42,832 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:42,833 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:43,207 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:43,208 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:43,208 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:43,208 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:43,330 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:43,602 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:43,603 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:43,603 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:43,604 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:44,068 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:44,068 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:44,068 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:44,069 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:44,332 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:44,448 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:44,449 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:44,449 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:44,450 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:44,905 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:44,906 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:44,906 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:44,907 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:45,289 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:45,289 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:45,290 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:45,290 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:45,333 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:45,370 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-10 13:48:45,370 DEBUG   SenderThread:13782 [sender.py:send_request():317] send_request: stop_status
+2022-11-10 13:48:45,672 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:45,673 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:45,673 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:45,673 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:46,068 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:46,069 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:46,069 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:46,069 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:46,334 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:46,578 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:46,579 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:46,580 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:46,582 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:47,335 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:47,336 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:48:47,772 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:47,772 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:47,773 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:47,773 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:48,218 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:48,218 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:48,218 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:48,219 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:48,338 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:48,610 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:48,611 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:48,611 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:48,612 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:48,886 DEBUG   SenderThread:13782 [sender.py:send():303] send: stats
+2022-11-10 13:48:49,067 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:49,068 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:49,068 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:49,068 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:49,340 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:49,340 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:48:49,550 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:49,551 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:49,551 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:49,551 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:49,962 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:49,962 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:49,963 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:49,963 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:50,341 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:50,416 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:50,417 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:50,532 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:50,532 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:50,833 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:50,833 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:50,833 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:50,834 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:51,217 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:51,218 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:51,218 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:51,219 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:51,345 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/config.yaml
+2022-11-10 13:48:51,345 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:51,604 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:51,604 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:51,604 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:51,605 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:51,974 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:51,974 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:51,975 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:51,975 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:52,346 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:52,390 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:52,390 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:52,391 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:52,391 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:52,865 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:52,866 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:52,866 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:52,867 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:53,327 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:53,327 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:53,328 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:53,329 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:53,346 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:53,740 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:53,740 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:53,741 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:53,741 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:54,151 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:54,151 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:54,152 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:54,152 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:54,351 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:54,624 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:54,625 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:54,625 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:54,627 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:55,355 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:55,355 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:48:55,865 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:55,866 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:55,866 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:55,868 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:56,355 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:57,359 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:48:57,537 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:57,538 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:57,538 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:57,539 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:57,975 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:57,975 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:57,976 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:57,977 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:58,362 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:58,430 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:58,431 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:58,431 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:58,431 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:58,910 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:58,911 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:58,911 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:58,912 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:59,315 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:59,316 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:59,316 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:59,317 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:48:59,362 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:48:59,695 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:48:59,695 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:48:59,696 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:48:59,696 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:00,077 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:00,077 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:00,077 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:00,079 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:00,368 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:00,458 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:00,458 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:00,458 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:00,459 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:00,468 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-10 13:49:00,468 DEBUG   SenderThread:13782 [sender.py:send_request():317] send_request: stop_status
+2022-11-10 13:49:00,842 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:00,842 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:00,842 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:00,843 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:01,223 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:01,224 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:01,224 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:01,224 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:01,369 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:01,605 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:01,605 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:01,605 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:01,606 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:01,990 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:01,991 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:01,991 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:01,992 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:02,369 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:02,369 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:02,370 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:02,372 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:02,372 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:02,735 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:02,735 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:02,735 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:02,736 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:03,119 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:03,119 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:03,120 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:03,120 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:03,378 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:03,567 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:03,568 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:03,569 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:03,572 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:04,380 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:05,383 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:49:05,915 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:05,915 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:05,915 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:05,916 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:06,289 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:06,289 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:06,289 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:06,290 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:06,384 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:06,690 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:06,691 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:06,691 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:06,691 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:07,063 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:07,064 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:07,064 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:07,065 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:07,386 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:07,580 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:07,580 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:07,580 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:07,582 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:08,391 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:09,328 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:09,328 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:09,329 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:09,330 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:09,395 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:09,709 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:09,710 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:09,710 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:09,711 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:10,082 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:10,083 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:10,083 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:10,083 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:10,396 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:10,467 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:10,468 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:10,468 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:10,468 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:10,896 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:10,897 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:10,897 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:10,898 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:11,350 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:11,351 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:11,351 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:11,352 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:11,401 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:12,808 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:12,822 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:12,823 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:12,844 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:13,402 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:13,419 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:13,419 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:13,420 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:13,420 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:13,867 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:13,868 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:13,869 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:13,869 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:14,359 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:14,360 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:14,360 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:14,361 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:14,405 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:14,774 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:14,774 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:14,774 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:14,775 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:15,250 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:15,252 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:15,252 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:15,255 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:15,405 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:15,569 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-10 13:49:15,569 DEBUG   SenderThread:13782 [sender.py:send_request():317] send_request: stop_status
+2022-11-10 13:49:16,560 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:16,561 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:16,561 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:16,562 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:16,952 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:16,953 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:16,953 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:16,954 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:17,406 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:17,406 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:49:17,446 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:17,447 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:17,447 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:17,448 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:17,827 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:17,828 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:17,828 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:17,829 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:18,222 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:18,223 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:18,223 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:18,223 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:18,408 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:18,633 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:18,633 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:18,634 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:18,634 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:19,041 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:19,041 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:19,041 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:19,042 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:19,409 DEBUG   SenderThread:13782 [sender.py:send():303] send: stats
+2022-11-10 13:49:19,409 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:19,434 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:19,435 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:19,435 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:19,435 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:19,856 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:19,856 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:19,856 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:19,858 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:20,265 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:20,265 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:20,265 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:20,266 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:20,410 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:20,688 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:20,688 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:20,689 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:20,689 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:21,198 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:21,199 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:21,199 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:21,200 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:21,410 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:21,577 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:21,578 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:21,578 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:21,579 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:22,095 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:22,096 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:22,096 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:22,096 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:22,412 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:22,510 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:22,511 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:22,511 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:22,511 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:23,005 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:23,006 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:23,006 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:23,006 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:23,414 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:23,504 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:23,505 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:23,506 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:23,507 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:24,417 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:24,972 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:24,972 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:24,972 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:24,973 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:25,420 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:25,421 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:49:25,519 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:25,519 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:25,520 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:25,520 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:25,915 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:25,915 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:25,915 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:25,916 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:26,327 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:26,327 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:26,328 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:26,328 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:26,421 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:26,726 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:26,726 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:26,727 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:26,727 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:27,097 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:27,098 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:27,098 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:27,098 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:27,421 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:27,492 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:27,492 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:27,492 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:27,493 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:27,887 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:27,888 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:27,888 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:27,888 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:28,258 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:28,258 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:28,259 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:28,259 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:28,427 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:28,648 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:28,648 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:28,649 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:28,649 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:29,077 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:29,077 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:29,078 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:29,079 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:29,430 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:29,479 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:29,480 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:29,480 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:29,480 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:29,888 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:29,889 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:29,889 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:29,891 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:30,319 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:30,319 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:30,319 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:30,320 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:30,431 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:30,667 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-10 13:49:30,674 DEBUG   SenderThread:13782 [sender.py:send_request():317] send_request: stop_status
+2022-11-10 13:49:30,736 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:30,767 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:30,768 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:30,769 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:31,152 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:31,153 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:31,153 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:31,154 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:31,432 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:31,642 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:31,643 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:31,645 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:31,646 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:32,434 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:33,154 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:33,154 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:33,154 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:33,155 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:33,438 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:33,438 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:49:33,561 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:33,561 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:33,562 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:33,562 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:33,950 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:33,950 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:33,950 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:33,951 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:34,321 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:34,322 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:34,322 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:34,322 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:34,440 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:34,739 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:34,740 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:34,740 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:34,741 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:35,139 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:35,140 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:35,140 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:35,140 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:35,442 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:35,542 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:35,542 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:35,543 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:35,543 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:35,939 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:35,940 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:35,940 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:35,940 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:36,354 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:36,354 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:36,354 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:36,355 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:36,443 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:36,743 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:36,743 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:36,743 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:36,744 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:37,157 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:37,157 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:37,158 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:37,158 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:37,447 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:37,600 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:37,601 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:37,601 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:37,601 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:38,007 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:38,008 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:38,008 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:38,008 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:38,437 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:38,437 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:38,437 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:38,438 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:38,450 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:38,841 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:38,841 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:38,841 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:38,842 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:39,233 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:39,234 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:39,234 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:39,234 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:39,453 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:39,785 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:39,788 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:39,788 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:39,789 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:40,454 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:41,199 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:41,200 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:41,200 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:41,201 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:41,455 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:41,455 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:49:41,625 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:41,626 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:41,626 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:41,627 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:42,033 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:42,034 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:42,034 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:42,034 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:42,422 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:42,423 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:42,423 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:42,423 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:42,456 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:42,955 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:42,955 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:42,955 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:42,956 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:43,354 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:43,355 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:43,355 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:43,355 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:43,460 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:43,754 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:43,755 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:43,755 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:43,755 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:44,154 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:44,155 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:44,155 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:44,155 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:44,461 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:44,545 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:44,545 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:44,546 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:44,546 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:44,946 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:44,947 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:44,947 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:44,948 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:45,348 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:45,349 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:45,349 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:45,350 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:45,462 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:45,767 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:45,768 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:45,768 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:45,768 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:45,771 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-10 13:49:45,772 DEBUG   SenderThread:13782 [sender.py:send_request():317] send_request: stop_status
+2022-11-10 13:49:46,162 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:46,162 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:46,162 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:46,163 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:46,462 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:46,570 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:46,571 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:46,571 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:46,571 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:46,940 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:46,940 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:46,940 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:46,941 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:47,318 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:47,319 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:47,319 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:47,320 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:47,467 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:47,765 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:47,766 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:47,766 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:47,767 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:48,468 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:48,973 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:48,974 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:48,974 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:48,975 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:49,358 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:49,358 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:49,358 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:49,359 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:49,468 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:49,468 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:49:49,723 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:49,724 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:49,724 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:49,724 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:49,948 DEBUG   SenderThread:13782 [sender.py:send():303] send: stats
+2022-11-10 13:49:50,086 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:50,087 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:50,087 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:50,087 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:50,453 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:50,453 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:50,454 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:50,454 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:50,469 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:50,833 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:50,833 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:50,833 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:50,834 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:51,252 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:51,252 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:51,252 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:51,254 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:51,470 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:51,623 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:51,624 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:51,624 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:51,624 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:52,001 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:52,002 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:52,002 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:52,002 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:52,381 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:52,382 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:52,382 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:52,383 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:52,471 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:52,772 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:52,773 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:52,773 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:52,774 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:53,138 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:53,138 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:53,138 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:53,139 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:53,475 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:53,502 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:53,503 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:53,503 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:53,503 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:53,871 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:53,871 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:53,871 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:53,872 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:54,252 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:54,253 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:54,253 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:54,253 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:54,480 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:54,616 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:54,616 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:54,616 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:54,617 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:55,083 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:55,084 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:55,084 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:55,086 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:55,483 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:55,483 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:49:56,372 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:56,372 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:56,372 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:56,373 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:56,484 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:56,774 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:56,775 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:56,775 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:56,775 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:57,162 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:57,162 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:57,163 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:57,163 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:57,484 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:57,484 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:49:57,651 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:57,652 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:57,652 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:57,653 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:58,065 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:58,065 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:58,065 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:58,066 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:58,485 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:58,504 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:58,505 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:58,505 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:58,505 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:58,892 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:58,892 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:58,892 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:58,893 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:59,271 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:59,272 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:59,272 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:59,273 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:49:59,487 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:49:59,641 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:49:59,642 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:49:59,642 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:49:59,643 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:00,005 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:00,005 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:00,006 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:00,006 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:00,382 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:00,383 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:00,383 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:00,383 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:00,488 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:00,769 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:00,769 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:00,769 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:00,770 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:00,872 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-10 13:50:00,872 DEBUG   SenderThread:13782 [sender.py:send_request():317] send_request: stop_status
+2022-11-10 13:50:01,156 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:01,157 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:01,157 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:01,158 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:01,491 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:01,545 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:01,546 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:01,546 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:01,548 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:01,924 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:01,925 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:01,925 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:01,925 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:02,299 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:02,300 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:02,300 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:02,300 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:02,495 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:02,753 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:02,753 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:02,754 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:02,755 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:03,498 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:03,498 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:50:03,994 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:03,995 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:03,995 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:03,996 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:04,439 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:04,440 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:04,440 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:04,440 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:04,500 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:04,815 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:04,815 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:04,815 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:04,817 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:05,187 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:05,187 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:05,187 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:05,189 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:05,504 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:05,504 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:50:05,573 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:05,573 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:05,573 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:05,574 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:05,965 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:05,966 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:05,966 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:05,966 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:06,331 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:06,331 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:06,331 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:06,332 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:06,509 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:06,698 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:06,699 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:06,699 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:06,699 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:07,072 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:07,073 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:07,073 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:07,073 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:07,446 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:07,447 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:07,447 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:07,447 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:07,512 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:07,828 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:07,828 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:07,828 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:07,829 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:08,198 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:08,198 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:08,199 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:08,199 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:08,512 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:08,574 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:08,575 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:08,575 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:08,576 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:08,948 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:08,949 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:08,949 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:08,950 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:09,315 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:09,316 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:09,316 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:09,316 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:09,517 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:09,681 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:09,682 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:09,682 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:09,682 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:10,190 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:10,190 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:10,191 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:10,192 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:10,522 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:11,482 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:11,482 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:11,482 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:11,483 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:11,524 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:11,524 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:50:11,910 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:11,910 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:11,911 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:11,913 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:12,374 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:12,375 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:12,375 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:12,375 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:12,528 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:12,791 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:12,791 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:12,792 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:12,792 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:13,238 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:13,238 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:13,239 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:13,239 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:13,530 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:13,530 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/output.log
+2022-11-10 13:50:13,723 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:13,724 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:13,724 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:13,724 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:14,146 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:14,147 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:14,147 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:14,148 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:14,532 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:14,574 DEBUG   HandlerThread:13782 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-10 13:50:14,575 DEBUG   SenderThread:13782 [sender.py:send():303] send: history
+2022-11-10 13:50:14,575 DEBUG   SenderThread:13782 [sender.py:send():303] send: summary
+2022-11-10 13:50:14,576 INFO    SenderThread:13782 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-10 13:50:15,535 INFO    Thread-13 :13782 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/wandb/run-20221110_134819-1y12v2v0/files/wandb-summary.json
+2022-11-10 13:50:17,553 INFO    MainThread:13782 [internal.py:handle_exit():78] Internal process exited
+2022-11-10 13:50:17,554 WARNING MsgRouterThr:13782 [router.py:message_loop():74] EOFError seen in message_loop

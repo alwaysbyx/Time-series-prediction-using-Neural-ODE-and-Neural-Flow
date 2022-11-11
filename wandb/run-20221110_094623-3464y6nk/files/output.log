@@ -1,0 +1,2402 @@
+/Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/run_models.py
+run_models.py --latent-ode --noise-weight 0.0 --viz --data high --extrap --z0-encoder flow --flow-model resnet --wandb 1
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0001 [Test seq (cond on sampled tp)] | Loss 2719.240234 | Likelihood -2734.884033 | KL fp 6.1504 | FP STD 0.3302|
+KL coef: 0.0
+Train loss (one batch): 3011.7734375
+Train CE loss (one batch): 0.0
+Test MSE: 0.5477
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0002 [Test seq (cond on sampled tp)] | Loss 1447.678711 | Likelihood -1460.600952 | KL fp 6.8842 | FP STD 0.2240|
+KL coef: 0.0
+Train loss (one batch): 1522.881103515625
+Train CE loss (one batch): 0.0
+Test MSE: 0.2929
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0003 [Test seq (cond on sampled tp)] | Loss 1066.425049 | Likelihood -1072.789917 | KL fp 8.8097 | FP STD 0.1964|
+KL coef: 0.0
+Train loss (one batch): 1127.328125
+Train CE loss (one batch): 0.0
+Test MSE: 0.2153
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0004 [Test seq (cond on sampled tp)] | Loss 715.245300 | Likelihood -716.637207 | KL fp 12.9793 | FP STD 0.1022|
+KL coef: 0.0
+Train loss (one batch): 726.5653076171875
+Train CE loss (one batch): 0.0
+Test MSE: 0.1441
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0005 [Test seq (cond on sampled tp)] | Loss 571.582092 | Likelihood -588.754272 | KL fp 15.7721 | FP STD 0.1560|
+KL coef: 0.0
+Train loss (one batch): 601.5975341796875
+Train CE loss (one batch): 0.0
+Test MSE: 0.1185
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0006 [Test seq (cond on sampled tp)] | Loss 440.901642 | Likelihood -442.291992 | KL fp 18.0417 | FP STD 0.1392|
+KL coef: 0.0
+Train loss (one batch): 445.8070983886719
+Train CE loss (one batch): 0.0
+Test MSE: 0.0892
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0007 [Test seq (cond on sampled tp)] | Loss 407.866577 | Likelihood -411.321777 | KL fp 18.0198 | FP STD 0.2278|
+KL coef: 0.0
+Train loss (one batch): 449.96331787109375
+Train CE loss (one batch): 0.0
+Test MSE: 0.0830
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0008 [Test seq (cond on sampled tp)] | Loss 380.828552 | Likelihood -389.611938 | KL fp 18.3866 | FP STD 0.2166|
+KL coef: 0.0
+Train loss (one batch): 352.7818603515625
+Train CE loss (one batch): 0.0
+Test MSE: 0.0787
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0009 [Test seq (cond on sampled tp)] | Loss 321.396088 | Likelihood -326.493866 | KL fp 18.7400 | FP STD 0.1434|
+KL coef: 0.0
+Train loss (one batch): 281.0666198730469
+Train CE loss (one batch): 0.0
+Test MSE: 0.0660
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0010 [Test seq (cond on sampled tp)] | Loss 273.505768 | Likelihood -283.926300 | KL fp 18.2953 | FP STD 0.1634|
+KL coef: 0.0
+Train loss (one batch): 259.68048095703125
+Train CE loss (one batch): 0.0
+Test MSE: 0.0575
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0011 [Test seq (cond on sampled tp)] | Loss 261.495667 | Likelihood -266.664185 | KL fp 18.6126 | FP STD 0.1586|
+KL coef: 0.010000000000000009
+Train loss (one batch): 243.70884704589844
+Train CE loss (one batch): 0.0
+Test MSE: 0.0541
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0012 [Test seq (cond on sampled tp)] | Loss 223.461807 | Likelihood -225.033859 | KL fp 19.2601 | FP STD 0.1277|
+KL coef: 0.01990000000000003
+Train loss (one batch): 310.4195861816406
+Train CE loss (one batch): 0.0
+Test MSE: 0.0457
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0013 [Test seq (cond on sampled tp)] | Loss 213.905518 | Likelihood -219.743179 | KL fp 19.7611 | FP STD 0.0574|
+KL coef: 0.029700999999999977
+Train loss (one batch): 215.0040283203125
+Train CE loss (one batch): 0.0
+Test MSE: 0.0447
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0014 [Test seq (cond on sampled tp)] | Loss 191.364136 | Likelihood -192.996902 | KL fp 19.6819 | FP STD 0.0556|
+KL coef: 0.039403990000000055
+Train loss (one batch): 217.47537231445312
+Train CE loss (one batch): 0.0
+Test MSE: 0.0393
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0015 [Test seq (cond on sampled tp)] | Loss 200.678619 | Likelihood -203.526779 | KL fp 19.4477 | FP STD 0.1460|
+KL coef: 0.04900995010000009
+Train loss (one batch): 204.9152374267578
+Train CE loss (one batch): 0.0
+Test MSE: 0.0414
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0016 [Test seq (cond on sampled tp)] | Loss 191.379974 | Likelihood -192.169739 | KL fp 19.4923 | FP STD 0.0771|
+KL coef: 0.058519850599
+Train loss (one batch): 205.19654846191406
+Train CE loss (one batch): 0.0
+Test MSE: 0.0392
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0017 [Test seq (cond on sampled tp)] | Loss 186.965317 | Likelihood -191.736099 | KL fp 18.9340 | FP STD 0.1380|
+KL coef: 0.06793465209301008
+Train loss (one batch): 202.75929260253906
+Train CE loss (one batch): 0.0
+Test MSE: 0.0391
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0018 [Test seq (cond on sampled tp)] | Loss 185.920731 | Likelihood -186.145584 | KL fp 19.1542 | FP STD 0.1210|
+KL coef: 0.07725530557207994
+Train loss (one batch): 188.22105407714844
+Train CE loss (one batch): 0.0
+Test MSE: 0.0380
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0019 [Test seq (cond on sampled tp)] | Loss 200.956787 | Likelihood -200.894455 | KL fp 19.1071 | FP STD 0.1144|
+KL coef: 0.08648275251635917
+Train loss (one batch): 193.6219940185547
+Train CE loss (one batch): 0.0
+Test MSE: 0.0409
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0020 [Test seq (cond on sampled tp)] | Loss 181.095825 | Likelihood -184.669235 | KL fp 18.9126 | FP STD 0.0951|
+KL coef: 0.09561792499119559
+Train loss (one batch): 186.0250701904297
+Train CE loss (one batch): 0.0
+Test MSE: 0.0377
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0021 [Test seq (cond on sampled tp)] | Loss 186.303772 | Likelihood -186.290848 | KL fp 19.0521 | FP STD 0.1165|
+KL coef: 0.10466174574128362
+Train loss (one batch): 192.15943908691406
+Train CE loss (one batch): 0.0
+Test MSE: 0.0380
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0022 [Test seq (cond on sampled tp)] | Loss 184.239594 | Likelihood -183.187790 | KL fp 19.9114 | FP STD 0.0487|
+KL coef: 0.11361512828387077
+Train loss (one batch): 184.57449340820312
+Train CE loss (one batch): 0.0
+Test MSE: 0.0374
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0023 [Test seq (cond on sampled tp)] | Loss 180.316650 | Likelihood -180.597397 | KL fp 18.9770 | FP STD 0.0916|
+KL coef: 0.12247897700103216
+Train loss (one batch): 177.72865295410156
+Train CE loss (one batch): 0.0
+Test MSE: 0.0369
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0024 [Test seq (cond on sampled tp)] | Loss 193.522003 | Likelihood -195.017014 | KL fp 18.6417 | FP STD 0.0893|
+KL coef: 0.13125418723102178
+Train loss (one batch): 176.05235290527344
+Train CE loss (one batch): 0.0
+Test MSE: 0.0397
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0025 [Test seq (cond on sampled tp)] | Loss 188.155579 | Likelihood -188.864792 | KL fp 18.5873 | FP STD 0.1064|
+KL coef: 0.13994164535871156
+Train loss (one batch): 268.54541015625
+Train CE loss (one batch): 0.0
+Test MSE: 0.0385
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0026 [Test seq (cond on sampled tp)] | Loss 165.925354 | Likelihood -165.797638 | KL fp 18.5867 | FP STD 0.1151|
+KL coef: 0.14854222890512447
+Train loss (one batch): 184.76988220214844
+Train CE loss (one batch): 0.0
+Test MSE: 0.0339
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0027 [Test seq (cond on sampled tp)] | Loss 131.430679 | Likelihood -135.488754 | KL fp 18.3287 | FP STD 0.1840|
+KL coef: 0.15705680661607324
+Train loss (one batch): 154.95858764648438
+Train CE loss (one batch): 0.0
+Test MSE: 0.0278
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0028 [Test seq (cond on sampled tp)] | Loss 106.082909 | Likelihood -105.018211 | KL fp 18.5781 | FP STD 0.1236|
+KL coef: 0.1654862385499125
+Train loss (one batch): 131.9987335205078
+Train CE loss (one batch): 0.0
+Test MSE: 0.0217
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment high_flow_resnet_extrap
+Epoch 0029 [Test seq (cond on sampled tp)] | Loss 74.570839 | Likelihood -73.889549 | KL fp 18.7163 | FP STD 0.0887|
+KL coef: 0.17383137616441335
+Train loss (one batch): 78.20958709716797
+Train CE loss (one batch): 0.0
+Test MSE: 0.0155
+Poisson likelihood: 0.0
+CE loss: 0.0
+Computing loss... 0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0030 [Test seq (cond on sampled tp)] | Loss 52.612503 | Likelihood -50.577393 | KL fp 18.3567 | FP STD 0.0934|
+KL coef: 0.18209306240276923
+Train loss (one batch): 95.48590850830078
+Train CE loss (one batch): 0.0
+Test MSE: 0.0109
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0031 [Test seq (cond on sampled tp)] | Loss 41.145199 | Likelihood -39.132427 | KL fp 18.6832 | FP STD 0.0788|
+KL coef: 0.19027213177874158
+Train loss (one batch): 32.98384094238281
+Train CE loss (one batch): 0.0
+Test MSE: 0.0086
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0032 [Test seq (cond on sampled tp)] | Loss 19.874874 | Likelihood -17.487282 | KL fp 18.8077 | FP STD 0.0706|
+KL coef: 0.19836941046095413
+Train loss (one batch): 27.99449348449707
+Train CE loss (one batch): 0.0
+Test MSE: 0.0042
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0033 [Test seq (cond on sampled tp)] | Loss 13.908198 | Likelihood -11.162236 | KL fp 18.7769 | FP STD 0.0597|
+KL coef: 0.20638571635634462
+Train loss (one batch): 12.138818740844727
+Train CE loss (one batch): 0.0
+Test MSE: 0.0030
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0034 [Test seq (cond on sampled tp)] | Loss 10.425886 | Likelihood -7.477541 | KL fp 18.9016 | FP STD 0.0490|
+KL coef: 0.21432185919278124
+Train loss (one batch): 9.802970886230469
+Train CE loss (one batch): 0.0
+Test MSE: 0.0022
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0035 [Test seq (cond on sampled tp)] | Loss 9.670666 | Likelihood -6.591993 | KL fp 18.9751 | FP STD 0.0451|
+KL coef: 0.22217864060085335
+Train loss (one batch): 15.571647644042969
+Train CE loss (one batch): 0.0
+Test MSE: 0.0021
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0036 [Test seq (cond on sampled tp)] | Loss 10.110700 | Likelihood -6.878191 | KL fp 18.8686 | FP STD 0.0424|
+KL coef: 0.2299568541948449
+Train loss (one batch): 9.201922416687012
+Train CE loss (one batch): 0.0
+Test MSE: 0.0021
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0037 [Test seq (cond on sampled tp)] | Loss 8.969772 | Likelihood -5.574561 | KL fp 18.9487 | FP STD 0.0423|
+KL coef: 0.23765728565289646
+Train loss (one batch): 8.923365592956543
+Train CE loss (one batch): 0.0
+Test MSE: 0.0019
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0038 [Test seq (cond on sampled tp)] | Loss 9.278996 | Likelihood -5.863569 | KL fp 18.4785 | FP STD 0.0552|
+KL coef: 0.24528071279636743
+Train loss (one batch): 12.416047096252441
+Train CE loss (one batch): 0.0
+Test MSE: 0.0019
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0039 [Test seq (cond on sampled tp)] | Loss 7.211565 | Likelihood -3.586433 | KL fp 18.6994 | FP STD 0.0519|
+KL coef: 0.25282790566840385
+Train loss (one batch): 11.668442726135254
+Train CE loss (one batch): 0.0
+Test MSE: 0.0015
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0040 [Test seq (cond on sampled tp)] | Loss 6.816380 | Likelihood -3.059264 | KL fp 18.6731 | FP STD 0.0404|
+KL coef: 0.2602996266117198
+Train loss (one batch): 10.377496719360352
+Train CE loss (one batch): 0.0
+Test MSE: 0.0013
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0041 [Test seq (cond on sampled tp)] | Loss 9.862355 | Likelihood -6.074216 | KL fp 18.4789 | FP STD 0.0463|
+KL coef: 0.26769663034560254
+Train loss (one batch): 8.676153182983398
+Train CE loss (one batch): 0.0
+Test MSE: 0.0020
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0042 [Test seq (cond on sampled tp)] | Loss 7.868838 | Likelihood -3.940855 | KL fp 18.4268 | FP STD 0.0554|
+KL coef: 0.2750196640421466
+Train loss (one batch): 20.255319595336914
+Train CE loss (one batch): 0.0
+Test MSE: 0.0015
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0043 [Test seq (cond on sampled tp)] | Loss 7.799519 | Likelihood -3.736405 | KL fp 18.4140 | FP STD 0.0538|
+KL coef: 0.2822694674017251
+Train loss (one batch): 10.632540702819824
+Train CE loss (one batch): 0.0
+Test MSE: 0.0015
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0044 [Test seq (cond on sampled tp)] | Loss 8.574702 | Likelihood -4.382745 | KL fp 18.4282 | FP STD 0.0511|
+KL coef: 0.2894467727277079
+Train loss (one batch): 16.949031829833984
+Train CE loss (one batch): 0.0
+Test MSE: 0.0016
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0045 [Test seq (cond on sampled tp)] | Loss 12.182271 | Likelihood -7.626125 | KL fp 19.0845 | FP STD 0.0354|
+KL coef: 0.29655230500043084
+Train loss (one batch): 6.096539497375488
+Train CE loss (one batch): 0.0
+Test MSE: 0.0023
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0046 [Test seq (cond on sampled tp)] | Loss 7.330420 | Likelihood -2.822994 | KL fp 18.5576 | FP STD 0.0503|
+KL coef: 0.30358678195042654
+Train loss (one batch): 7.964305877685547
+Train CE loss (one batch): 0.0
+Test MSE: 0.0013
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0047 [Test seq (cond on sampled tp)] | Loss 5.673073 | Likelihood -0.975876 | KL fp 18.6819 | FP STD 0.0361|
+KL coef: 0.3105509141309223
+Train loss (one batch): 5.635670185089111
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0048 [Test seq (cond on sampled tp)] | Loss 8.944175 | Likelihood -4.325009 | KL fp 18.1809 | FP STD 0.0592|
+KL coef: 0.31744540498961304
+Train loss (one batch): 9.715468406677246
+Train CE loss (one batch): 0.0
+Test MSE: 0.0016
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0049 [Test seq (cond on sampled tp)] | Loss 12.087703 | Likelihood -7.415619 | KL fp 18.3070 | FP STD 0.0612|
+KL coef: 0.3242709509397169
+Train loss (one batch): 12.82241153717041
+Train CE loss (one batch): 0.0
+Test MSE: 0.0022
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0050 [Test seq (cond on sampled tp)] | Loss 7.967742 | Likelihood -3.080077 | KL fp 18.1269 | FP STD 0.0633|
+KL coef: 0.3310282414303197
+Train loss (one batch): 12.586573600769043
+Train CE loss (one batch): 0.0
+Test MSE: 0.0014
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0051 [Test seq (cond on sampled tp)] | Loss 21.918331 | Likelihood -17.174273 | KL fp 18.0494 | FP STD 0.0829|
+KL coef: 0.33771795901601653
+Train loss (one batch): 11.580744743347168
+Train CE loss (one batch): 0.0
+Test MSE: 0.0042
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0052 [Test seq (cond on sampled tp)] | Loss 10.099072 | Likelihood -5.115589 | KL fp 18.1192 | FP STD 0.0629|
+KL coef: 0.3443407794258564
+Train loss (one batch): 9.262130737304688
+Train CE loss (one batch): 0.0
+Test MSE: 0.0018
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0053 [Test seq (cond on sampled tp)] | Loss 5.287745 | Likelihood 0.194166 | KL fp 18.7809 | FP STD 0.0345|
+KL coef: 0.35089737163159784
+Train loss (one batch): 8.412039756774902
+Train CE loss (one batch): 0.0
+Test MSE: 0.0007
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0054 [Test seq (cond on sampled tp)] | Loss 5.769001 | Likelihood -0.175386 | KL fp 18.7402 | FP STD 0.0311|
+KL coef: 0.3573883979152819
+Train loss (one batch): 5.546555995941162
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0055 [Test seq (cond on sampled tp)] | Loss 40.845310 | Likelihood -35.178913 | KL fp 18.6369 | FP STD 0.0514|
+KL coef: 0.36381451393612907
+Train loss (one batch): 28.177196502685547
+Train CE loss (one batch): 0.0
+Test MSE: 0.0078
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0056 [Test seq (cond on sampled tp)] | Loss 15.997617 | Likelihood -10.607859 | KL fp 17.7584 | FP STD 0.0777|
+KL coef: 0.37017636879676774
+Train loss (one batch): 29.486183166503906
+Train CE loss (one batch): 0.0
+Test MSE: 0.0029
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0057 [Test seq (cond on sampled tp)] | Loss 8.674477 | Likelihood -2.990245 | KL fp 18.1748 | FP STD 0.0399|
+KL coef: 0.37647460510880004
+Train loss (one batch): 8.64528751373291
+Train CE loss (one batch): 0.0
+Test MSE: 0.0013
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0058 [Test seq (cond on sampled tp)] | Loss 8.454761 | Likelihood -2.809604 | KL fp 17.7477 | FP STD 0.0711|
+KL coef: 0.38270985905771204
+Train loss (one batch): 9.162616729736328
+Train CE loss (one batch): 0.0
+Test MSE: 0.0013
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment high_flow_resnet_extrap
+Epoch 0059 [Test seq (cond on sampled tp)] | Loss 12.968042 | Likelihood -7.203713 | KL fp 17.7916 | FP STD 0.0833|
+KL coef: 0.388882760467135
+Train loss (one batch): 11.025284767150879
+Train CE loss (one batch): 0.0
+Test MSE: 0.0022
+Poisson likelihood: 0.0
+CE loss: 0.0
+Computing loss... 0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0060 [Test seq (cond on sampled tp)] | Loss 10.539550 | Likelihood -4.685069 | KL fp 18.0305 | FP STD 0.0499|
+KL coef: 0.39499393286246365
+Train loss (one batch): 9.093673706054688
+Train CE loss (one batch): 0.0
+Test MSE: 0.0017
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0061 [Test seq (cond on sampled tp)] | Loss 19.055231 | Likelihood -14.106380 | KL fp 17.5456 | FP STD 0.0892|
+KL coef: 0.401043993533839
+Train loss (one batch): 21.76821517944336
+Train CE loss (one batch): 0.0
+Test MSE: 0.0036
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0062 [Test seq (cond on sampled tp)] | Loss 8.383123 | Likelihood -2.138754 | KL fp 18.0650 | FP STD 0.0478|
+KL coef: 0.4070335535985006
+Train loss (one batch): 14.289139747619629
+Train CE loss (one batch): 0.0
+Test MSE: 0.0012
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0063 [Test seq (cond on sampled tp)] | Loss 6.031066 | Likelihood 0.442724 | KL fp 18.3666 | FP STD 0.0327|
+KL coef: 0.41296321806251557
+Train loss (one batch): 6.083194255828857
+Train CE loss (one batch): 0.0
+Test MSE: 0.0006
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0064 [Test seq (cond on sampled tp)] | Loss 6.848578 | Likelihood -0.257758 | KL fp 18.4141 | FP STD 0.0294|
+KL coef: 0.41883358588189046
+Train loss (one batch): 6.450160980224609
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0065 [Test seq (cond on sampled tp)] | Loss 8.950075 | Likelihood -2.778088 | KL fp 17.4517 | FP STD 0.0852|
+KL coef: 0.4246452500230715
+Train loss (one batch): 8.757195472717285
+Train CE loss (one batch): 0.0
+Test MSE: 0.0013
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0066 [Test seq (cond on sampled tp)] | Loss 8.123096 | Likelihood -1.649645 | KL fp 17.6299 | FP STD 0.0677|
+KL coef: 0.4303987975228408
+Train loss (one batch): 8.32834529876709
+Train CE loss (one batch): 0.0
+Test MSE: 0.0011
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0067 [Test seq (cond on sampled tp)] | Loss 8.305388 | Likelihood -1.601910 | KL fp 17.9461 | FP STD 0.0437|
+KL coef: 0.4360948095476125
+Train loss (one batch): 8.779067039489746
+Train CE loss (one batch): 0.0
+Test MSE: 0.0011
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0068 [Test seq (cond on sampled tp)] | Loss 6.695486 | Likelihood 0.236333 | KL fp 18.1970 | FP STD 0.0293|
+KL coef: 0.44173386145213633
+Train loss (one batch): 7.131566047668457
+Train CE loss (one batch): 0.0
+Test MSE: 0.0007
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0069 [Test seq (cond on sampled tp)] | Loss 12.412526 | Likelihood -5.557510 | KL fp 17.8466 | FP STD 0.0490|
+KL coef: 0.4473165228376149
+Train loss (one batch): 40.93814468383789
+Train CE loss (one batch): 0.0
+Test MSE: 0.0018
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0070 [Test seq (cond on sampled tp)] | Loss 31.727221 | Likelihood -25.510447 | KL fp 17.0243 | FP STD 0.1159|
+KL coef: 0.4528433576092388
+Train loss (one batch): 27.692174911499023
+Train CE loss (one batch): 0.0
+Test MSE: 0.0058
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0071 [Test seq (cond on sampled tp)] | Loss 13.766680 | Likelihood -6.972235 | KL fp 17.2420 | FP STD 0.0936|
+KL coef: 0.45831492403314644
+Train loss (one batch): 13.112372398376465
+Train CE loss (one batch): 0.0
+Test MSE: 0.0021
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0072 [Test seq (cond on sampled tp)] | Loss 8.290512 | Likelihood -1.163495 | KL fp 17.7569 | FP STD 0.0557|
+KL coef: 0.463731774792815
+Train loss (one batch): 7.471203804016113
+Train CE loss (one batch): 0.0
+Test MSE: 0.0010
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0073 [Test seq (cond on sampled tp)] | Loss 8.368560 | Likelihood -1.101320 | KL fp 17.8958 | FP STD 0.0411|
+KL coef: 0.46909445704488684
+Train loss (one batch): 6.843006610870361
+Train CE loss (one batch): 0.0
+Test MSE: 0.0010
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0074 [Test seq (cond on sampled tp)] | Loss 7.810588 | Likelihood -0.385508 | KL fp 17.9721 | FP STD 0.0360|
+KL coef: 0.474403512474438
+Train loss (one batch): 6.664471626281738
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0075 [Test seq (cond on sampled tp)] | Loss 10.967181 | Likelihood -3.622742 | KL fp 17.7088 | FP STD 0.0442|
+KL coef: 0.4796594773496936
+Train loss (one batch): 6.8186798095703125
+Train CE loss (one batch): 0.0
+Test MSE: 0.0015
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0076 [Test seq (cond on sampled tp)] | Loss 10.741850 | Likelihood -3.223037 | KL fp 17.7932 | FP STD 0.0394|
+KL coef: 0.4848628825761967
+Train loss (one batch): 6.496641159057617
+Train CE loss (one batch): 0.0
+Test MSE: 0.0014
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0077 [Test seq (cond on sampled tp)] | Loss 9.149239 | Likelihood -1.574805 | KL fp 17.7079 | FP STD 0.0360|
+KL coef: 0.4900142537504347
+Train loss (one batch): 6.1461920738220215
+Train CE loss (one batch): 0.0
+Test MSE: 0.0011
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0078 [Test seq (cond on sampled tp)] | Loss 8.662541 | Likelihood -0.964999 | KL fp 17.7760 | FP STD 0.0341|
+KL coef: 0.49511411121293036
+Train loss (one batch): 6.401559829711914
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0079 [Test seq (cond on sampled tp)] | Loss 7.653892 | Likelihood 0.058100 | KL fp 17.6525 | FP STD 0.0369|
+KL coef: 0.500162970100801
+Train loss (one batch): 6.657928466796875
+Train CE loss (one batch): 0.0
+Test MSE: 0.0007
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0080 [Test seq (cond on sampled tp)] | Loss 7.372940 | Likelihood 0.399198 | KL fp 17.5623 | FP STD 0.0346|
+KL coef: 0.505161340399793
+Train loss (one batch): 6.829261302947998
+Train CE loss (one batch): 0.0
+Test MSE: 0.0007
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0081 [Test seq (cond on sampled tp)] | Loss 11.506439 | Likelihood -3.730289 | KL fp 17.4127 | FP STD 0.0389|
+KL coef: 0.510109726995795
+Train loss (one batch): 8.032007217407227
+Train CE loss (one batch): 0.0
+Test MSE: 0.0015
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0082 [Test seq (cond on sampled tp)] | Loss 19.391808 | Likelihood -11.915479 | KL fp 16.9911 | FP STD 0.0634|
+KL coef: 0.5150086297258372
+Train loss (one batch): 17.05015754699707
+Train CE loss (one batch): 0.0
+Test MSE: 0.0031
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0083 [Test seq (cond on sampled tp)] | Loss 51.357330 | Likelihood -45.510967 | KL fp 16.1661 | FP STD 0.1526|
+KL coef: 0.5198585434285787
+Train loss (one batch): 42.717681884765625
+Train CE loss (one batch): 0.0
+Test MSE: 0.0098
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0084 [Test seq (cond on sampled tp)] | Loss 30.661919 | Likelihood -24.714630 | KL fp 16.8055 | FP STD 0.1277|
+KL coef: 0.524659957994293
+Train loss (one batch): 29.224754333496094
+Train CE loss (one batch): 0.0
+Test MSE: 0.0057
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0085 [Test seq (cond on sampled tp)] | Loss 28.217207 | Likelihood -21.399200 | KL fp 16.6688 | FP STD 0.1302|
+KL coef: 0.5294133584143501
+Train loss (one batch): 32.16111373901367
+Train CE loss (one batch): 0.0
+Test MSE: 0.0050
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0086 [Test seq (cond on sampled tp)] | Loss 39.884354 | Likelihood -33.233856 | KL fp 16.8014 | FP STD 0.1383|
+KL coef: 0.5341192248302067
+Train loss (one batch): 36.38774490356445
+Train CE loss (one batch): 0.0
+Test MSE: 0.0074
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0087 [Test seq (cond on sampled tp)] | Loss 43.892704 | Likelihood -37.018482 | KL fp 16.5452 | FP STD 0.1444|
+KL coef: 0.5387780325819045
+Train loss (one batch): 36.5539436340332
+Train CE loss (one batch): 0.0
+Test MSE: 0.0081
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0088 [Test seq (cond on sampled tp)] | Loss 32.051262 | Likelihood -27.505381 | KL fp 16.4251 | FP STD 0.1409|
+KL coef: 0.5433902522560855
+Train loss (one batch): 35.99353790283203
+Train CE loss (one batch): 0.0
+Test MSE: 0.0062
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0089 [Test seq (cond on sampled tp)] | Loss 32.229897 | Likelihood -25.295099 | KL fp 16.4082 | FP STD 0.1348|
+KL coef: 0.5479563497335247
+Train loss (one batch): 30.03788185119629
+Train CE loss (one batch): 0.0
+Test MSE: 0.0058
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0090 [Test seq (cond on sampled tp)] | Loss 27.029280 | Likelihood -21.412460 | KL fp 16.4549 | FP STD 0.1315|
+KL coef: 0.5524767862361895
+Train loss (one batch): 26.579837799072266
+Train CE loss (one batch): 0.0
+Test MSE: 0.0050
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment high_flow_resnet_extrap
+Epoch 0091 [Test seq (cond on sampled tp)] | Loss 25.059465 | Likelihood -17.693121 | KL fp 16.6416 | FP STD 0.1222|
+KL coef: 0.5569520183738275
+Train loss (one batch): 26.61292839050293
+Train CE loss (one batch): 0.0
+Test MSE: 0.0043
+Poisson likelihood: 0.0
+CE loss: 0.0
+Computing loss... 0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0092 [Test seq (cond on sampled tp)] | Loss 23.738657 | Likelihood -17.141459 | KL fp 16.6362 | FP STD 0.1196|
+KL coef: 0.5613824981900892
+Train loss (one batch): 25.252239227294922
+Train CE loss (one batch): 0.0
+Test MSE: 0.0042
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0093 [Test seq (cond on sampled tp)] | Loss 23.097067 | Likelihood -15.893027 | KL fp 16.5549 | FP STD 0.1216|
+KL coef: 0.5657686732081884
+Train loss (one batch): 21.569128036499023
+Train CE loss (one batch): 0.0
+Test MSE: 0.0039
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0094 [Test seq (cond on sampled tp)] | Loss 24.563868 | Likelihood -16.535276 | KL fp 16.5967 | FP STD 0.1142|
+KL coef: 0.5701109864761065
+Train loss (one batch): 22.887737274169922
+Train CE loss (one batch): 0.0
+Test MSE: 0.0040
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0095 [Test seq (cond on sampled tp)] | Loss 20.880108 | Likelihood -12.545283 | KL fp 16.5429 | FP STD 0.1116|
+KL coef: 0.5744098766113455
+Train loss (one batch): 19.261886596679688
+Train CE loss (one batch): 0.0
+Test MSE: 0.0032
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0096 [Test seq (cond on sampled tp)] | Loss 22.387335 | Likelihood -14.161069 | KL fp 16.4989 | FP STD 0.1102|
+KL coef: 0.578665777845232
+Train loss (one batch): 21.7950439453125
+Train CE loss (one batch): 0.0
+Test MSE: 0.0036
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0097 [Test seq (cond on sampled tp)] | Loss 19.843161 | Likelihood -11.883990 | KL fp 16.5403 | FP STD 0.1046|
+KL coef: 0.5828791200667797
+Train loss (one batch): 18.155860900878906
+Train CE loss (one batch): 0.0
+Test MSE: 0.0031
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0098 [Test seq (cond on sampled tp)] | Loss 20.338697 | Likelihood -12.035741 | KL fp 16.2300 | FP STD 0.1229|
+KL coef: 0.5870503288661119
+Train loss (one batch): 20.82399559020996
+Train CE loss (one batch): 0.0
+Test MSE: 0.0031
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment high_flow_resnet_extrap
+Epoch 0099 [Test seq (cond on sampled tp)] | Loss 19.981819 | Likelihood -11.544543 | KL fp 16.4558 | FP STD 0.1146|
+KL coef: 0.5911798255774507
+Train loss (one batch): 17.4179630279541
+Train CE loss (one batch): 0.0
+Test MSE: 0.0030
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0100 [Test seq (cond on sampled tp)] | Loss 17.604147 | Likelihood -9.122808 | KL fp 16.4847 | FP STD 0.1031|
+KL coef: 0.5952680273216762
+Train loss (one batch): 18.990175247192383
+Train CE loss (one batch): 0.0
+Test MSE: 0.0026
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0101 [Test seq (cond on sampled tp)] | Loss 15.320392 | Likelihood -6.476655 | KL fp 16.6188 | FP STD 0.0931|
+KL coef: 0.5993153470484595
+Train loss (one batch): 17.40222930908203
+Train CE loss (one batch): 0.0
+Test MSE: 0.0020
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment high_flow_resnet_extrap
+Epoch 0102 [Test seq (cond on sampled tp)] | Loss 16.779219 | Likelihood -7.969355 | KL fp 16.5082 | FP STD 0.1043|
+KL coef: 0.6033221935779749
+Train loss (one batch): 17.70799446105957
+Train CE loss (one batch): 0.0
+Test MSE: 0.0023
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0103 [Test seq (cond on sampled tp)] | Loss 15.281471 | Likelihood -6.567928 | KL fp 16.5091 | FP STD 0.1004|
+KL coef: 0.6072889716421952
+Train loss (one batch): 16.75428009033203
+Train CE loss (one batch): 0.0
+Test MSE: 0.0021
+Poisson likelihood: 0.0
+CE loss: 0.0
+Computing loss... 0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0104 [Test seq (cond on sampled tp)] | Loss 20.169090 | Likelihood -11.636678 | KL fp 16.3185 | FP STD 0.1224|
+KL coef: 0.6112160819257733
+Train loss (one batch): 22.172494888305664
+Train CE loss (one batch): 0.0
+Test MSE: 0.0031
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0105 [Test seq (cond on sampled tp)] | Loss 19.169863 | Likelihood -10.609111 | KL fp 16.2634 | FP STD 0.1213|
+KL coef: 0.6151039211065155
+Train loss (one batch): 20.183021545410156
+Train CE loss (one batch): 0.0
+Test MSE: 0.0029
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment high_flow_resnet_extrap
+Epoch 0106 [Test seq (cond on sampled tp)] | Loss 18.586994 | Likelihood -9.774097 | KL fp 16.2206 | FP STD 0.1154|
+KL coef: 0.6189528818954504
+Train loss (one batch): 18.5333194732666
+Train CE loss (one batch): 0.0
+Test MSE: 0.0027
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment high_flow_resnet_extrap
+Epoch 0107 [Test seq (cond on sampled tp)] | Loss 18.469604 | Likelihood -9.573635 | KL fp 16.3012 | FP STD 0.1083|
+KL coef: 0.6227633530764958
+Train loss (one batch): 17.6492919921875
+Train CE loss (one batch): 0.0
+Test MSE: 0.0027
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Computing loss... 0
+plotting....
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0108 [Test seq (cond on sampled tp)] | Loss 16.807247 | Likelihood -7.769722 | KL fp 16.3085 | FP STD 0.1046|
+KL coef: 0.6265357195457308
+Train loss (one batch): 16.105262756347656
+Train CE loss (one batch): 0.0
+Test MSE: 0.0023
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment high_flow_resnet_extrap
+Epoch 0109 [Test seq (cond on sampled tp)] | Loss 16.195713 | Likelihood -6.999522 | KL fp 16.4058 | FP STD 0.1009|
+KL coef: 0.6302703623502736
+Train loss (one batch): 18.228748321533203
+Train CE loss (one batch): 0.0
+Test MSE: 0.0021
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0110 [Test seq (cond on sampled tp)] | Loss 15.291789 | Likelihood -6.161726 | KL fp 16.2421 | FP STD 0.1011|
+KL coef: 0.6339676587267709
+Train loss (one batch): 15.449624061584473
+Train CE loss (one batch): 0.0
+Test MSE: 0.0020
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0111 [Test seq (cond on sampled tp)] | Loss 15.008368 | Likelihood -5.852631 | KL fp 16.2491 | FP STD 0.0987|
+KL coef: 0.6376279821395031
+Train loss (one batch): 15.272616386413574
+Train CE loss (one batch): 0.0
+Test MSE: 0.0019
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0112 [Test seq (cond on sampled tp)] | Loss 14.682758 | Likelihood -5.289377 | KL fp 16.4018 | FP STD 0.0912|
+KL coef: 0.6412517023181081
+Train loss (one batch): 14.21451187133789
+Train CE loss (one batch): 0.0
+Test MSE: 0.0018
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0113 [Test seq (cond on sampled tp)] | Loss 13.668067 | Likelihood -4.361592 | KL fp 16.4119 | FP STD 0.0886|
+KL coef: 0.644839185294927
+Train loss (one batch): 14.375418663024902
+Train CE loss (one batch): 0.0
+Test MSE: 0.0016
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0114 [Test seq (cond on sampled tp)] | Loss 14.486430 | Likelihood -5.175377 | KL fp 16.0861 | FP STD 0.0977|
+KL coef: 0.6483907934419777
+Train loss (one batch): 13.544528007507324
+Train CE loss (one batch): 0.0
+Test MSE: 0.0018
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0115 [Test seq (cond on sampled tp)] | Loss 13.568334 | Likelihood -4.223871 | KL fp 16.1317 | FP STD 0.0936|
+KL coef: 0.651906885507558
+Train loss (one batch): 14.323957443237305
+Train CE loss (one batch): 0.0
+Test MSE: 0.0016
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0116 [Test seq (cond on sampled tp)] | Loss 13.879587 | Likelihood -4.339139 | KL fp 16.2951 | FP STD 0.0863|
+KL coef: 0.6553878166524825
+Train loss (one batch): 12.714960098266602
+Train CE loss (one batch): 0.0
+Test MSE: 0.0016
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0117 [Test seq (cond on sampled tp)] | Loss 13.614702 | Likelihood -3.993714 | KL fp 16.2990 | FP STD 0.0834|
+KL coef: 0.6588339384859576
+Train loss (one batch): 13.893208503723145
+Train CE loss (one batch): 0.0
+Test MSE: 0.0015
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0118 [Test seq (cond on sampled tp)] | Loss 13.272053 | Likelihood -3.629998 | KL fp 16.2452 | FP STD 0.0855|
+KL coef: 0.662245599101098
+Train loss (one batch): 14.006881713867188
+Train CE loss (one batch): 0.0
+Test MSE: 0.0015
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0119 [Test seq (cond on sampled tp)] | Loss 13.383668 | Likelihood -3.871936 | KL fp 15.9965 | FP STD 0.0962|
+KL coef: 0.665623143110087
+Train loss (one batch): 14.22058391571045
+Train CE loss (one batch): 0.0
+Test MSE: 0.0015
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0120 [Test seq (cond on sampled tp)] | Loss 12.972403 | Likelihood -3.562794 | KL fp 15.7970 | FP STD 0.1007|
+KL coef: 0.6689669116789861
+Train loss (one batch): 14.367210388183594
+Train CE loss (one batch): 0.0
+Test MSE: 0.0014
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment high_flow_resnet_extrap
+Epoch 0121 [Test seq (cond on sampled tp)] | Loss 12.437531 | Likelihood -2.797881 | KL fp 16.0402 | FP STD 0.0879|
+KL coef: 0.6722772425621963
+Train loss (one batch): 14.165575981140137
+Train CE loss (one batch): 0.0
+Test MSE: 0.0013
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0122 [Test seq (cond on sampled tp)] | Loss 12.993891 | Likelihood -3.370671 | KL fp 15.9539 | FP STD 0.0834|
+KL coef: 0.6755544701365743
+Train loss (one batch): 13.483399391174316
+Train CE loss (one batch): 0.0
+Test MSE: 0.0014
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0123 [Test seq (cond on sampled tp)] | Loss 12.977536 | Likelihood -3.350037 | KL fp 15.8706 | FP STD 0.0885|
+KL coef: 0.6787989254352086
+Train loss (one batch): 13.410958290100098
+Train CE loss (one batch): 0.0
+Test MSE: 0.0014
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment high_flow_resnet_extrap
+Epoch 0124 [Test seq (cond on sampled tp)] | Loss 12.805628 | Likelihood -2.995144 | KL fp 16.0315 | FP STD 0.0810|
+KL coef: 0.6820109361808565
+Train loss (one batch): 12.59369945526123
+Train CE loss (one batch): 0.0
+Test MSE: 0.0013
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0125 [Test seq (cond on sampled tp)] | Loss 12.498139 | Likelihood -2.692064 | KL fp 16.0465 | FP STD 0.0752|
+KL coef: 0.685190826819048
+Train loss (one batch): 11.787086486816406
+Train CE loss (one batch): 0.0
+Test MSE: 0.0013
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0126 [Test seq (cond on sampled tp)] | Loss 12.595288 | Likelihood -3.034018 | KL fp 15.7608 | FP STD 0.0875|
+KL coef: 0.6883389185508575
+Train loss (one batch): 12.593194961547852
+Train CE loss (one batch): 0.0
+Test MSE: 0.0013
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0127 [Test seq (cond on sampled tp)] | Loss 11.656093 | Likelihood -2.084448 | KL fp 15.6694 | FP STD 0.0877|
+KL coef: 0.6914555293653489
+Train loss (one batch): 12.907754898071289
+Train CE loss (one batch): 0.0
+Test MSE: 0.0012
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment high_flow_resnet_extrap
+Epoch 0128 [Test seq (cond on sampled tp)] | Loss 11.841443 | Likelihood -2.026258 | KL fp 15.7413 | FP STD 0.0832|
+KL coef: 0.6945409740716955
+Train loss (one batch): 12.449395179748535
+Train CE loss (one batch): 0.0
+Test MSE: 0.0011
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0129 [Test seq (cond on sampled tp)] | Loss 12.035889 | Likelihood -2.136573 | KL fp 15.7656 | FP STD 0.0794|
+KL coef: 0.6975955643309785
+Train loss (one batch): 12.493279457092285
+Train CE loss (one batch): 0.0
+Test MSE: 0.0012
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment high_flow_resnet_extrap
+Epoch 0130 [Test seq (cond on sampled tp)] | Loss 11.670662 | Likelihood -1.915717 | KL fp 15.5899 | FP STD 0.0832|
+KL coef: 0.7006196086876687
+Train loss (one batch): 12.008015632629395
+Train CE loss (one batch): 0.0
+Test MSE: 0.0011
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Computing loss... 0
+plotting....
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0131 [Test seq (cond on sampled tp)] | Loss 11.460082 | Likelihood -1.634795 | KL fp 15.6157 | FP STD 0.0793|
+KL coef: 0.703613412600792
+Train loss (one batch): 11.753293991088867
+Train CE loss (one batch): 0.0
+Test MSE: 0.0011
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0132 [Test seq (cond on sampled tp)] | Loss 12.055796 | Likelihood -2.216994 | KL fp 15.6112 | FP STD 0.0793|
+KL coef: 0.7065772784747841
+Train loss (one batch): 12.10244369506836
+Train CE loss (one batch): 0.0
+Test MSE: 0.0012
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0133 [Test seq (cond on sampled tp)] | Loss 11.921728 | Likelihood -1.964422 | KL fp 15.6404 | FP STD 0.0792|
+KL coef: 0.7095115056900363
+Train loss (one batch): 11.9118013381958
+Train CE loss (one batch): 0.0
+Test MSE: 0.0011
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0134 [Test seq (cond on sampled tp)] | Loss 12.246305 | Likelihood -2.482032 | KL fp 15.4264 | FP STD 0.0848|
+KL coef: 0.7124163906331359
+Train loss (one batch): 11.764765739440918
+Train CE loss (one batch): 0.0
+Test MSE: 0.0012
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0135 [Test seq (cond on sampled tp)] | Loss 11.645376 | Likelihood -1.640330 | KL fp 15.5428 | FP STD 0.0779|
+KL coef: 0.7152922267268045
+Train loss (one batch): 12.142248153686523
+Train CE loss (one batch): 0.0
+Test MSE: 0.0011
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0136 [Test seq (cond on sampled tp)] | Loss 11.336586 | Likelihood -1.181344 | KL fp 15.7098 | FP STD 0.0719|
+KL coef: 0.7181393044595366
+Train loss (one batch): 12.133843421936035
+Train CE loss (one batch): 0.0
+Test MSE: 0.0010
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0137 [Test seq (cond on sampled tp)] | Loss 11.126531 | Likelihood -1.055948 | KL fp 15.5405 | FP STD 0.0731|
+KL coef: 0.7209579114149411
+Train loss (one batch): 11.651870727539062
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0138 [Test seq (cond on sampled tp)] | Loss 10.879034 | Likelihood -0.743436 | KL fp 15.5225 | FP STD 0.0722|
+KL coef: 0.7237483323007917
+Train loss (one batch): 10.615739822387695
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0139 [Test seq (cond on sampled tp)] | Loss 11.206941 | Likelihood -1.017238 | KL fp 15.5434 | FP STD 0.0706|
+KL coef: 0.7265108489777838
+Train loss (one batch): 11.83667278289795
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0140 [Test seq (cond on sampled tp)] | Loss 10.872259 | Likelihood -0.695083 | KL fp 15.4871 | FP STD 0.0706|
+KL coef: 0.729245740488006
+Train loss (one batch): 10.798685073852539
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0141 [Test seq (cond on sampled tp)] | Loss 10.613983 | Likelihood -0.481407 | KL fp 15.4744 | FP STD 0.0710|
+KL coef: 0.7319532830831259
+Train loss (one batch): 11.495804786682129
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0142 [Test seq (cond on sampled tp)] | Loss 11.045784 | Likelihood -0.896546 | KL fp 15.3878 | FP STD 0.0714|
+KL coef: 0.7346337502522946
+Train loss (one batch): 11.435792922973633
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0143 [Test seq (cond on sampled tp)] | Loss 11.977592 | Likelihood -2.026005 | KL fp 15.0748 | FP STD 0.0807|
+KL coef: 0.7372874127497717
+Train loss (one batch): 13.468890190124512
+Train CE loss (one batch): 0.0
+Test MSE: 0.0011
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0144 [Test seq (cond on sampled tp)] | Loss 11.707746 | Likelihood -1.717317 | KL fp 15.0017 | FP STD 0.0864|
+KL coef: 0.739914538622274
+Train loss (one batch): 11.7476224899292
+Train CE loss (one batch): 0.0
+Test MSE: 0.0011
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0145 [Test seq (cond on sampled tp)] | Loss 11.854934 | Likelihood -1.725583 | KL fp 15.1734 | FP STD 0.0815|
+KL coef: 0.7425153932360513
+Train loss (one batch): 11.876249313354492
+Train CE loss (one batch): 0.0
+Test MSE: 0.0011
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0146 [Test seq (cond on sampled tp)] | Loss 11.081610 | Likelihood -1.029160 | KL fp 15.0207 | FP STD 0.0811|
+KL coef: 0.7450902393036907
+Train loss (one batch): 10.776816368103027
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0147 [Test seq (cond on sampled tp)] | Loss 11.433167 | Likelihood -1.453153 | KL fp 14.8656 | FP STD 0.0809|
+KL coef: 0.7476393369106538
+Train loss (one batch): 10.762808799743652
+Train CE loss (one batch): 0.0
+Test MSE: 0.0010
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0148 [Test seq (cond on sampled tp)] | Loss 12.387073 | Likelihood -2.395598 | KL fp 14.8191 | FP STD 0.0793|
+KL coef: 0.7501629435415473
+Train loss (one batch): 12.096481323242188
+Train CE loss (one batch): 0.0
+Test MSE: 0.0012
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0149 [Test seq (cond on sampled tp)] | Loss 11.834527 | Likelihood -1.764966 | KL fp 14.8395 | FP STD 0.0756|
+KL coef: 0.7526613141061318
+Train loss (one batch): 12.648170471191406
+Train CE loss (one batch): 0.0
+Test MSE: 0.0011
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0150 [Test seq (cond on sampled tp)] | Loss 11.348895 | Likelihood -1.244400 | KL fp 14.8393 | FP STD 0.0725|
+KL coef: 0.7551347009650705
+Train loss (one batch): 12.235581398010254
+Train CE loss (one batch): 0.0
+Test MSE: 0.0010
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0151 [Test seq (cond on sampled tp)] | Loss 11.014222 | Likelihood -1.033207 | KL fp 14.8213 | FP STD 0.0732|
+KL coef: 0.7575833539554198
+Train loss (one batch): 11.04760456085205
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0152 [Test seq (cond on sampled tp)] | Loss 11.051627 | Likelihood -1.027220 | KL fp 14.6841 | FP STD 0.0798|
+KL coef: 0.7600075204158656
+Train loss (one batch): 11.209066390991211
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0153 [Test seq (cond on sampled tp)] | Loss 11.153080 | Likelihood -1.061263 | KL fp 14.7056 | FP STD 0.0768|
+KL coef: 0.762407445211707
+Train loss (one batch): 11.556838989257812
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0154 [Test seq (cond on sampled tp)] | Loss 10.436440 | Likelihood -0.416515 | KL fp 14.6117 | FP STD 0.0753|
+KL coef: 0.7647833707595899
+Train loss (one batch): 10.412214279174805
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0155 [Test seq (cond on sampled tp)] | Loss 10.130890 | Likelihood 0.034790 | KL fp 14.6857 | FP STD 0.0694|
+KL coef: 0.767135537051994
+Train loss (one batch): 10.885788917541504
+Train CE loss (one batch): 0.0
+Test MSE: 0.0007
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0156 [Test seq (cond on sampled tp)] | Loss 10.378057 | Likelihood -0.028915 | KL fp 14.8877 | FP STD 0.0639|
+KL coef: 0.769464181681474
+Train loss (one batch): 11.641469955444336
+Train CE loss (one batch): 0.0
+Test MSE: 0.0007
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0157 [Test seq (cond on sampled tp)] | Loss 10.290801 | Likelihood -0.116483 | KL fp 14.6078 | FP STD 0.0698|
+KL coef: 0.7717695398646593
+Train loss (one batch): 11.385391235351562
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0158 [Test seq (cond on sampled tp)] | Loss 10.405861 | Likelihood -0.285067 | KL fp 14.5262 | FP STD 0.0703|
+KL coef: 0.7740518444660127
+Train loss (one batch): 10.50510311126709
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0159 [Test seq (cond on sampled tp)] | Loss 10.109519 | Likelihood 0.072180 | KL fp 14.5839 | FP STD 0.0664|
+KL coef: 0.7763113260213526
+Train loss (one batch): 10.533787727355957
+Train CE loss (one batch): 0.0
+Test MSE: 0.0007
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0160 [Test seq (cond on sampled tp)] | Loss 10.016149 | Likelihood 0.235098 | KL fp 14.6378 | FP STD 0.0628|
+KL coef: 0.7785482127611391
+Train loss (one batch): 10.573823928833008
+Train CE loss (one batch): 0.0
+Test MSE: 0.0007
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0161 [Test seq (cond on sampled tp)] | Loss 12.421350 | Likelihood -2.171293 | KL fp 14.5744 | FP STD 0.0708|
+KL coef: 0.7807627306335276
+Train loss (one batch): 12.538195610046387
+Train CE loss (one batch): 0.0
+Test MSE: 0.0012
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0162 [Test seq (cond on sampled tp)] | Loss 11.056701 | Likelihood -0.867670 | KL fp 14.4430 | FP STD 0.0723|
+KL coef: 0.7829551033271924
+Train loss (one batch): 11.223174095153809
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0163 [Test seq (cond on sampled tp)] | Loss 10.549337 | Likelihood -0.287750 | KL fp 14.4885 | FP STD 0.0682|
+KL coef: 0.7851255522939204
+Train loss (one batch): 11.04002857208252
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0164 [Test seq (cond on sampled tp)] | Loss 10.369941 | Likelihood -0.311655 | KL fp 14.3047 | FP STD 0.0706|
+KL coef: 0.7872742967709813
+Train loss (one batch): 10.62943172454834
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0165 [Test seq (cond on sampled tp)] | Loss 10.384061 | Likelihood -0.273256 | KL fp 14.2433 | FP STD 0.0703|
+KL coef: 0.7894015538032715
+Train loss (one batch): 10.742293357849121
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0166 [Test seq (cond on sampled tp)] | Loss 10.521629 | Likelihood -0.356639 | KL fp 14.2342 | FP STD 0.0685|
+KL coef: 0.7915075382652388
+Train loss (one batch): 10.305801391601562
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0167 [Test seq (cond on sampled tp)] | Loss 10.307456 | Likelihood -0.148066 | KL fp 14.2175 | FP STD 0.0672|
+KL coef: 0.7935924628825863
+Train loss (one batch): 10.373102188110352
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0168 [Test seq (cond on sampled tp)] | Loss 11.303298 | Likelihood -1.315412 | KL fp 13.9615 | FP STD 0.0735|
+KL coef: 0.7956565382537605
+Train loss (one batch): 11.578938484191895
+Train CE loss (one batch): 0.0
+Test MSE: 0.0010
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0169 [Test seq (cond on sampled tp)] | Loss 12.589189 | Likelihood -2.790083 | KL fp 13.7306 | FP STD 0.0858|
+KL coef: 0.7976999728712229
+Train loss (one batch): 12.66718578338623
+Train CE loss (one batch): 0.0
+Test MSE: 0.0013
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0170 [Test seq (cond on sampled tp)] | Loss 11.663157 | Likelihood -1.815875 | KL fp 13.7633 | FP STD 0.0826|
+KL coef: 0.7997229731425107
+Train loss (one batch): 11.077412605285645
+Train CE loss (one batch): 0.0
+Test MSE: 0.0011
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0171 [Test seq (cond on sampled tp)] | Loss 10.808568 | Likelihood -0.898048 | KL fp 13.7322 | FP STD 0.0778|
+KL coef: 0.8017257434110856
+Train loss (one batch): 10.433310508728027
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0172 [Test seq (cond on sampled tp)] | Loss 10.425444 | Likelihood -0.297584 | KL fp 13.9992 | FP STD 0.0694|
+KL coef: 0.8037084859769748
+Train loss (one batch): 10.187630653381348
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0173 [Test seq (cond on sampled tp)] | Loss 10.296031 | Likelihood -0.433088 | KL fp 13.6448 | FP STD 0.0760|
+KL coef: 0.805671401117205
+Train loss (one batch): 10.845657348632812
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0174 [Test seq (cond on sampled tp)] | Loss 10.805032 | Likelihood -0.916133 | KL fp 13.6250 | FP STD 0.0785|
+KL coef: 0.8076146871060329
+Train loss (one batch): 11.485025405883789
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0175 [Test seq (cond on sampled tp)] | Loss 9.904566 | Likelihood 0.106111 | KL fp 13.7331 | FP STD 0.0729|
+KL coef: 0.8095385402349726
+Train loss (one batch): 10.534440994262695
+Train CE loss (one batch): 0.0
+Test MSE: 0.0007
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0176 [Test seq (cond on sampled tp)] | Loss 10.122766 | Likelihood -0.126473 | KL fp 13.6840 | FP STD 0.0679|
+KL coef: 0.8114431548326229
+Train loss (one batch): 10.25462532043457
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0177 [Test seq (cond on sampled tp)] | Loss 10.682671 | Likelihood -0.849531 | KL fp 13.4738 | FP STD 0.0722|
+KL coef: 0.8133287232842966
+Train loss (one batch): 11.601202964782715
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0178 [Test seq (cond on sampled tp)] | Loss 10.820333 | Likelihood -0.993359 | KL fp 13.4163 | FP STD 0.0706|
+KL coef: 0.8151954360514537
+Train loss (one batch): 10.53981876373291
+Train CE loss (one batch): 0.0
+Test MSE: 0.0009
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0179 [Test seq (cond on sampled tp)] | Loss 10.200589 | Likelihood -0.189425 | KL fp 13.6065 | FP STD 0.0653|
+KL coef: 0.8170434816909391
+Train loss (one batch): 10.560318946838379
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment high_flow_resnet_extrap
+Epoch 0180 [Test seq (cond on sampled tp)] | Loss 10.156611 | Likelihood -0.530487 | KL fp 13.1454 | FP STD 0.0719|
+KL coef: 0.8188730468740297
+Train loss (one batch): 10.220199584960938
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+Computing loss... 0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0181 [Test seq (cond on sampled tp)] | Loss 9.876150 | Likelihood -0.199884 | KL fp 13.1749 | FP STD 0.0677|
+KL coef: 0.8206843164052895
+Train loss (one batch): 9.67065143585205
+Train CE loss (one batch): 0.0
+Test MSE: 0.0008
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0182 [Test seq (cond on sampled tp)] | Loss 9.775371 | Likelihood 0.072695 | KL fp 13.3365 | FP STD 0.0628|
+KL coef: 0.8224774732412365
+Train loss (one batch): 9.623388290405273
+Train CE loss (one batch): 0.0
+Test MSE: 0.0007
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0183 [Test seq (cond on sampled tp)] | Loss 9.298067 | Likelihood 0.587137 | KL fp 13.3416 | FP STD 0.0615|
+KL coef: 0.8242526985088242
+Train loss (one batch): 9.542133331298828
+Train CE loss (one batch): 0.0
+Test MSE: 0.0006
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0184 [Test seq (cond on sampled tp)] | Loss 9.541699 | Likelihood 0.321272 | KL fp 13.2783 | FP STD 0.0614|
+KL coef: 0.826010171523736
+Train loss (one batch): 9.556477546691895
+Train CE loss (one batch): 0.0
+Test MSE: 0.0007
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0185 [Test seq (cond on sampled tp)] | Loss 9.462768 | Likelihood 0.348869 | KL fp 13.2389 | FP STD 0.0603|
+KL coef: 0.8277500698084986
+Train loss (one batch): 9.735893249511719
+Train CE loss (one batch): 0.0
+Test MSE: 0.0007
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0186 [Test seq (cond on sampled tp)] | Loss 9.216187 | Likelihood 0.646935 | KL fp 13.2155 | FP STD 0.0582|
+KL coef: 0.8294725691104137
+Train loss (one batch): 9.150818824768066
+Train CE loss (one batch): 0.0
+Test MSE: 0.0006
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0187 [Test seq (cond on sampled tp)] | Loss 9.162256 | Likelihood 0.672002 | KL fp 13.1537 | FP STD 0.0576|
+KL coef: 0.8311778434193096
+Train loss (one batch): 10.13789176940918
+Train CE loss (one batch): 0.0
+Test MSE: 0.0006
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Experiment high_flow_resnet_extrap
+Epoch 0188 [Test seq (cond on sampled tp)] | Loss 12.663220 | Likelihood -3.115224 | KL fp 12.8105 | FP STD 0.0654|
+KL coef: 0.8328660649851164
+Train loss (one batch): 13.103217124938965
+Train CE loss (one batch): 0.0
+Test MSE: 0.0014
+Poisson likelihood: 0.0
+CE loss: 0.0
+Computing loss... 0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0189 [Test seq (cond on sampled tp)] | Loss 12.316565 | Likelihood -2.977004 | KL fp 12.5828 | FP STD 0.0722|
+KL coef: 0.8345374043352652
+Train loss (one batch): 12.163835525512695
+Train CE loss (one batch): 0.0
+Test MSE: 0.0013
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0190 [Test seq (cond on sampled tp)] | Loss 11.361955 | Likelihood -2.001202 | KL fp 12.5631 | FP STD 0.0692|
+KL coef: 0.8361920302919126
+Train loss (one batch): 11.647713661193848
+Train CE loss (one batch): 0.0
+Test MSE: 0.0011
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0191 [Test seq (cond on sampled tp)] | Loss 10.584733 | Likelihood -1.127562 | KL fp 12.6002 | FP STD 0.0675|
+KL coef: 0.8378301099889934
+Train loss (one batch): 9.631665229797363
+Train CE loss (one batch): 0.0
+Test MSE: 0.0010
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0192 [Test seq (cond on sampled tp)] | Loss 9.452094 | Likelihood -0.003546 | KL fp 12.6087 | FP STD 0.0629|
+KL coef: 0.8394518088891035
+Train loss (one batch): 9.611576080322266
+Train CE loss (one batch): 0.0
+Test MSE: 0.0007
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0193 [Test seq (cond on sampled tp)] | Loss 8.888834 | Likelihood 0.580360 | KL fp 12.6470 | FP STD 0.0591|
+KL coef: 0.8410572908002125
+Train loss (one batch): 9.565591812133789
+Train CE loss (one batch): 0.0
+Test MSE: 0.0006
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+Experiment high_flow_resnet_extrap
+Epoch 0194 [Test seq (cond on sampled tp)] | Loss 9.043690 | Likelihood 0.524118 | KL fp 12.6679 | FP STD 0.0544|
+KL coef: 0.8426467178922104
+Train loss (one batch): 8.931949615478516
+Train CE loss (one batch): 0.0
+Test MSE: 0.0006
+Poisson likelihood: 0.0
+CE loss: 0.0
+plotting....
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0195 [Test seq (cond on sampled tp)] | Loss 8.963899 | Likelihood 0.607817 | KL fp 12.6473 | FP STD 0.0536|
+KL coef: 0.8442202507132883
+Train loss (one batch): 9.204029083251953
+Train CE loss (one batch): 0.0
+Test MSE: 0.0006
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0196 [Test seq (cond on sampled tp)] | Loss 8.762569 | Likelihood 0.762478 | KL fp 12.5751 | FP STD 0.0537|
+KL coef: 0.8457780482061554
+Train loss (one batch): 8.830283164978027
+Train CE loss (one batch): 0.0
+Test MSE: 0.0006
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0197 [Test seq (cond on sampled tp)] | Loss 8.837155 | Likelihood 0.705495 | KL fp 12.5652 | FP STD 0.0528|
+KL coef: 0.8473202677240939
+Train loss (one batch): 8.830863952636719
+Train CE loss (one batch): 0.0
+Test MSE: 0.0006
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0198 [Test seq (cond on sampled tp)] | Loss 8.783107 | Likelihood 0.734264 | KL fp 12.5080 | FP STD 0.0534|
+KL coef: 0.8488470650468529
+Train loss (one batch): 8.82820987701416
+Train CE loss (one batch): 0.0
+Test MSE: 0.0006
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0199 [Test seq (cond on sampled tp)] | Loss 8.520939 | Likelihood 0.959102 | KL fp 12.4473 | FP STD 0.0531|
+KL coef: 0.8503585943963844
+Train loss (one batch): 8.583939552307129
+Train CE loss (one batch): 0.0
+Test MSE: 0.0005
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)
+Computing loss... 0
+plotting....
+Experiment high_flow_resnet_extrap
+Epoch 0200 [Test seq (cond on sampled tp)] | Loss 8.479537 | Likelihood 0.969037 | KL fp 12.3824 | FP STD 0.0522|
+KL coef: 0.8518550084524206
+Train loss (one batch): 8.829188346862793
+Train CE loss (one batch): 0.0
+Test MSE: 0.0005
+Poisson likelihood: 0.0
+CE loss: 0.0
+run_models.py:348: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.pause(0.0001)

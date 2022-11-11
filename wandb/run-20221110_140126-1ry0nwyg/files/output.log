@@ -1,0 +1,18 @@
+/Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/run_models.py
+run_models.py --latent-ode --noise-weight 0.01 --viz --data sine2 --extrap --z0-encoder ode --wandb 1
+Experiment sine2_ode_coupling_extrap_true
+Epoch 0001 [Test seq (cond on sampled tp)] | Loss 3227.698730 | Likelihood -3230.914062 | KL fp 1.8780 | FP STD 0.3443|
+KL coef: 0.0
+Train loss (one batch): 3402.784912109375
+Train CE loss (one batch): 0.0
+Test MSE: 0.6469
+Poisson likelihood: 0.0
+CE loss: 0.0
+Traceback (most recent call last):
+  File "run_models.py", line 345, in <module>
+    viz.draw_all_plots(test_dict, model,
+  File "/Users/bb/Desktop/UCSD/Quarters/22Fall/CSE291/latent_ode/lib/plotting.py", line 177, in draw_all_plots
+    mask_for_plotting = mask[:n_traj_to_show]
+TypeError: 'NoneType' object is not subscriptable
+Computing loss... 0
+plotting....
